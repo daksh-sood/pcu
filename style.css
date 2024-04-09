@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+
+.top-bar{
+    display: flex;
+
+    align-items: center;
+    
+
+}
+.main{
+    background-color: white;
+    height: 100px;
+    color: red;
+    height: 101px;
+    width: 247px;
+    padding-left: 100px;
+    margin-left: 100px;
+    /* margin-top:90px ; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.pcu-logo{
+    background-image: url("pcu-logo-img.png");
+    background-size: cover;
+    height: 200px;
+    width: 350px;
+}
+
+.heading{
+    background-color: white;
+    height: 100px;
+    width: 1500px;
+    font-size: 4rem;
+    padding-left: 200px;
+margin-left: 200px;
+padding: 10px;
+     margin-top:20px ; 
+    text-align: center;
+}
+
+.pcu-heading{
+    color: #890404;
+}
+
+.center{
+    height: 1500px;
+    width: 2500px;
+    background-image: url("pcu-img2.jpg");
+    background-size: cover;
+    margin-left: 150px;
+    margin-top: 90px;  
+    position: sticky
+}
+
+.background {
+    /* height: 1000px;100px
+    width: 1800px;
+    background-image: url("pcu-img1.jpg");
+    background-size: cover;
+    margin-left: 250px;
+    margin-top: 90px; */
+}
+
+.container{
+    width: 450px;
+    height: 900px;
+    background-color: white;
+    padding: 25px 30px;
+    position: absolute;
+    top: 50px;
+   right: 100px;
+    
+ }
+
+.container{ 
+    max-width: 700px;
+    width: 500px;
+    height: 700px;
+    background-color: #fff;
+    padding: 25px 30px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 500;
+position: relative;
+}
+
+.container .title ::before {
+    content:'' ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+}
+.topic{
+    background-color: #890404;
+    color: white;
+  height: 34px;
+  width: 140px;
+font-size: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container form .user-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-detail .input-box {
+    margin: 5px 0 5px 0;
+    width: calc(100% / 2 - 20px);
+}
+.user-detail .input-box .user-detail{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-detail .input-box input{
+    height: 45px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 16px;
+    mask-border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.statee-box{
+    height: 45px;
+    width: 150px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 16px;
+    mask-border-width: 2px;
+    transition: all 0.3s ease;
+    margin: 5px 0 5px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+#StateId-1{
+    width: 350px;
+    
+}
+#StateId-2 {
+      width: 369px;
+}
+img{
+    height: 34;
+    width: 162px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+button{
+    height: 40px;
+    width: 380px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color:  #941c34 ;
+    color: white;
+    margin: 40px 0 30px 0;
+
+}
+
+.agree-condition{
+    margin:2px ;
+}
+#box{
+    margin: 5px 0 5px 0;
+}
+
+.line{
+height: 142px;
+width: 1500px;
+background-color: white;
+/* padding: 70px 10px 30px; */
+position: absolute;
+left: 600px;
+/* margin-bottom: 100px; */
+}
+
+.text1{
+    
+    text-align: center;
+    display: flex;
+  justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    margin-top: 50px;
+    position: absolute;
+    left: 500px;
+
+}
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    background-size: cover;
+}
+.box{
+    height: 320px;
+    width: 340px;
+    background-color: #890404;   
+    padding: 20px 10px 10px; 
+    margin-top: 200px;
+
+}
+
+.box-img{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.box-content{
+    margin-left:1rem;
+    margin-right:1rem ;
+    color: white;
+}
+.box-content p {
+    color: white;
+}
+
+p{
+    font-size: 1.85rem;
+    
+    margin-left: 40px;
+}
+span{
+    font-size: 25px;
+}
+.space{
+    height: 800px;
+    background-color: #890404;
+    margin-top: 200px;
+}
